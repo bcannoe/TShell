@@ -222,8 +222,8 @@ void removeFile(string path, string title) {
 void help() {
 	cout << "List of commands and a brief description" << endl;
 	cout << "(cpath /path/to/directory) will change your current directory relative paths are not supported yet.\n" << endl; // The '\n' was intentional
-	cout << "(mk filename.extention :text) will create a new file everything after the ':' symbol will go in the file.\n" << endl;
-       	cout << "(rm filename.extention) will delete the intended file.\n" << endl;
+	cout << "(mk filename.extension :text) will create a new file everything after the ':' symbol will go in the file.\n" << endl;
+       	cout << "(rm filename.extension) will delete the intended file.\n" << endl;
 	cout << "(pl) will list all active process ID's currently the output looks bad and needs to be cleaned up.\n" << endl;
 	cout << "(pk 12345) will terminate the process given the process ID in place of '12345' this is currently unsafe and may crash your system.\n" << endl;
 	cout << "(lpath) will list all the folders and files in your current directory.\n" << endl;
